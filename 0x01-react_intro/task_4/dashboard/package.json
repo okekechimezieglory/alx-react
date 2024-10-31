@@ -1,5 +1,5 @@
 {
-  "homepage": "https://okekechimezieglory.github.io/alx-react/0x01-react_intro/task_4",
+  "homepage": "https://okekechimezieglory.github.io/alx-react",
   "name": "dashboard",
   "version": "0.1.0",
   "private": true,
@@ -14,7 +14,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "predeploy":"npm run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -39,6 +39,7 @@
     ]
   },
   "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@cfaester/enzyme-adapter-react-18": "^0.7.0",
     "enzyme": "^3.11.0",
     "gh-pages": "^6.2.0"
